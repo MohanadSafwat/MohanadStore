@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../icons/logo.svg">
+    <link rel="stylesheet" href="sign up.css">
+    <title>Sign Up</title>
+  </head>
+  <body>
+<div class="container-fluid" >
+    <div class="row">
+
+      <!-- ------------ background photo ----------- -->
+
+
+        <div class="col-7" style="padding:0px; ">
+        <img class="img-fluid"  src="../images/sign up background.jpg" >
+    </div>
+
+
+
+    <!-- ------------- form --------------- -->
+
+
+
+    <div class="col-5 form-div" >
+      <form class="needs-validation" novalidate action="../index.html">
+        <h3 class="text-center display-4" style="padding-bottom: 3rem;">SIGN UP</h3>
+
+        <div class="form-row">
+          <div class="form-group col-6">
+            <input type="text" class="form-control" placeholder="First name" required>
+            <div class="invalid-feedback">
+              First Name is required.
+            </div>
+          </div>
+          <div class="form-group col-6">
+            <input type="text" class="form-control" placeholder="Last name" required>
+            <div class="invalid-feedback">
+              Last Name is required.
+            </div>
+          </div>
+        
+        
+          <div class="form-group col-md-12">
+            <input type="email" class="form-control" id="Email" placeholder="Email" required>
+            <div class="invalid-feedback">
+              Email is required.
+            </div>
+          </div>
+
+          <div class="form-group col-md-6">
+            <input type="password" class="form-control" id="Password" placeholder="Password" required>
+            <div class="invalid-feedback">
+              Password is required.
+            </div>
+          </div>
+        
+        <div class="form-group col-md-6">
+          <input type="password" class="form-control" id="ConfirmPassword" placeholder="Confirm Password" required>
+          <div class="invalid-feedback">
+           Wrong! .
+          </div>
+        </div>
+      
+        
+        
+          <div class="form-group col-md-12">
+            <input type="text" class="form-control" id="inputCity" placeholder="City" required>
+          </div>
+          <div class="form-group col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="AgreeCheckBox" required>
+              <label class="form-check-label" for="AgreeCheckBox">
+               I agree to the
+              </label>
+              <a href="#">Terms of User</a>
+              <div class="invalid-feedback">
+                You must agree before Signing Up.
+              </div>
+            </div>
+          </div>
+          
+        <div class="form-group col-12">
+        <button type="submit" class="btn btn-dark btn-lg btn-block">SIGN UP</button>
+          
+      </div>
+      </form>
+      <a href="../Login/login.html" style="margin: auto; color: #444d56;"> Already have an account ?</a>
+    </div>
+   <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+      </script>
+     
+</div>
+</div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+.bg-light{
+    background-color: #e1e7ea !important ;
+}
+.navbar-brand {
+    margin-left: 5rem;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    color:rgba(0, 0, 0, 0.9);
+}
+.navbar-brand:hover{
+    color: rgba(0, 0, 0, 0.9);
+}
+.mr-auto{
+    margin-left: 11rem !important;
+}
+.btn-outline-dark {
+    
+    margin: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+}
+.addidasContainer{
+    margin-top: 5rem;
+}
+
+.addidas{
+    padding-top: 12rem;
+}
+ .btn{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+ }
+.btn-buy{
+    margin-right: 4.2rem;
+    font-size: 1.2rem;
+     width: 5rem;
+ }
+ .section2{
+     padding-top: 2rem;
+     padding-left: 5.5rem;
+ }
+ footer .container-fluid .row  {
+     margin-top: 2rem;
+     padding-top: 3rem;
+     padding-bottom: 3rem;
+    background-color: #e1e7ea !important;
+}
+footer .container-fluid .row h5{
+    margin-bottom: 0.6rem;
+}
+ footer .list-group-item {
+    padding: .5rem 1.25rem;
+    background-color: #e1e7ea;
+
+}
+footer .container-fluid .row .col-2 a {
+    color:rgba(0, 0, 0, 0.9)  !important ;
+}
+footer .container-fluid .row .col-2 a:hover{
+    text-decoration: none !important;
+}
+footer .container-fluid .row .col-3 p {
+    margin-bottom: 0rem ;
+    font-size: 1.2rem;
+
+}
+.follow-div{
+    padding-left:0.4rem ;
+}
+.follow{
+width: 1.5rem;
+margin-right: 1.3rem;
+}
